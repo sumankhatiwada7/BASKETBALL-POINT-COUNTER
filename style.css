@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background-color:  #1F2937;
+  text-align: center
+  ;
+}
+.parent-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 150px;
+
+}
+.wrapper{
+color: white;
+margin-bottom: 10px;
+font-size: 60px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1F2937;
+    text-align: center;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.wrapper {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 250px;
+    height: 170px;
+    margin: auto;
+}
+
+.scoreboard h1 {
+    color: red;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 100px;
+    margin: 0;
+   
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30PX;
+
+
+}
+.button-wrapper button{
+   width: 60px;
+   border-radius: 7px;
+  border:4px solid #9AABD8;
+  color: #9AABD8;
+  background-color: transparent;
+ font-size: 30px;
+ font-family:'Cursed Timer ULiL', sans-serif ;
+ transition: 0.2s;
+}
+.button-wrapper button:hover{
+    background-color:rgb(255, 255, 255);
+}
+    
